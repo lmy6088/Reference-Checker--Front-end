@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Add Suggestion</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="custom-css/index.css">
+    <!-- fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+	<div class="first-nav-bar">
+	  	<nav class="navbar navbar-inverse">
+	  		<div class="container-fluid">
+	  			<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home" style="color:white"></span> <span style="color:white">Reference</span><span style="color:#0ca3d2">Checker</span></a>
+	  			<ul class="nav navbar-nav navbar-right">
+	  				<a href="#" class="btn btn-primary btn-sm">Sign in</a>
+	  				<a href="#" class="btn btn-primary btn-sm">Sign Up</a>
+	  			</ul>
+	  		</div>
+	  	</nav>
+  	</div>
+  	<!-- Navigation bar and Website icon -->
+  	<nav class="navbar navbar-inverse">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span> 
+		      	</button>
+    		</div>
+	    	<div class="collapse navbar-collapse" id="myNavbar">
+	      		<ul class="nav navbar-nav navbar-left">
+			        <li><a href="home.html">Home</a></li>
+			        <li><a href="aboutme.html">About</a></li>
+			        <li class="dropdown">
+			        	<a class="dropdown-toggle" data-toggle="dropdown" href="#">Categories
+			        		<span class="caret"></span></a>
+			        	<ul class="dropdown-menu">
+				         	<li><a href="#">Cardiology &amp; Vascular Medicine</a></li>
+			                <li><a href="#">Endocrinology</a></li>
+			                <li><a href="#">Gastroenterology</a></li>
+			                <li><a href="#">Genetics &amp; Genomics</a></li>
+			                <li><a href="#">Haematology</a></li>
+			                <li><a href="#">Infectious Diseases</a></li>
+			                <li><a href="#">Neurology</a></li>
+			                <li><a href="#">Obstetrics &amp; Gynaecology</a></li>
+			                <li><a href="#">Oncology</a></li>
+			                <li><a href="#">Paediatrics</a></li>
+			                <li><a href="#">Psychiatry</a></li>
+			                <li><a href="#">Public Health</a></li>
+			                <li><a href="#">Respiratory Medicine</a></li>
+			                <li><a href="#">Urology</a></li>
+			                <li><a href="#">Other</a></li>
+				        </ul>
+			        </li> 
+			        <li><a href="#">Post</a></li> 
+	      		</ul>
+	      		<div class="col-sm-3 col-md-3 pull-right">
+        			<form class="navbar-form" role="search">
+	        			<div class="input-group">
+	            			<input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+	            			<div class="input-group-btn">
+	                		<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+	            			</div>
+	        			</div>
+        			</form>
+        		</div>
+	    	</div>
+  		</div>
+	</nav>
+
+	<!-- this is the top section which contains user details and info about the article -->
+	<div class="post_author_section container">
+		<div class="left_header">
+			<p style="font-size:19px"><span class="glyphicon glyphicon-user"></span><span class="label" style="font-size:19px">Username</span>: <a href="#">zcabmyl</a></p>
+			<p><span class="glyphicon glyphicon-eye-open"></span><span class="label">Views:</span> 301</p>
+			<p><span class="glyphicon glyphicon-th-list"></span> <span class="label">Category:</span> <a href="#">Other</a></p>
+		</div>
+		<p style="font-size:16px;"><span class="glyphicon glyphicon-pencil"></span><span class="label">Article Title:</span>Metformin for Liver Cancer Prevention in Patients with Type 2 Diabetes: A Systematic Review and Meta-Analysis</p>
+		<p><span class="glyphicon glyphicon-tag"></span><span class="label">Article url:</span><a href="http://www.medicalprotection.org/uk/resources/case-reports/case-reports/uk-a-case-of-renal-failure">http://www.medicalprotection.org/uk/resources/case-reports/case-reports/uk-a-case-of-renal-failure......................................</a></p>
+		<p><span class="glyphicon glyphicon-book"></span><span class="label">Author(s):</span> </p>
+		<p><span class="glyphicon glyphicon-calendar"></span><span class="label">Date posted:</span>24/7/2015</p>
+	</div>
+	<!-- This is the form at which the users submit thier suggestions. -->
+	<div class="suggestion_form container panel panel-default">
+		<!-- A panel header that states the reference that the user is currently working on -->
+		<div class="current-reference panel-heading">
+			<h3 style="font-size:19px">The current reference is: <span style="color:#197B9C">Dellicour S, Tatem AJ, Guerra CA, Snow RW, ter Kuile FO. Quantifying the number of pregnancies at risk of malaria in 2007: a demographic study. PLoS Med 2010;7:e1000221-e1000221</span></h3>
+		</div>
+		<!-- This is the form at which the users submit thier suggestions. -->
+		<form method="post" action="">
+					<p><i class="fa fa-lightbulb-o"></i> Suggestion</p>
+					<p><input type="text" name="suggestion" placeholder="Enter the correction you would like to suggest."></p>
+					<p>What is the type of error of the reference?</p>
+					<label class="radio-inline"><input type="radio" name="optradio">Citation</label>
+   					<label class="radio-inline"><input type="radio" name="optradio">Quotation</label>
+					<p><span class="glyphicon glyphicon-comment"></span> Additional Comments</p>
+					<p><textarea name='comment' id='comment' placeholder="Additional comments for this reference?"></textarea></p>
+					<div class="submit_buttons">
+						<button type="button">Submit</button>
+						<button type="button">Cancel</button>
+					</div>
+		</form>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
